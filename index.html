@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millenium store</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #000000, #000033); /* Degradê preto */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff; /* Cor do texto branco */
+        }
+        .container {
+            text-align: center;
+            margin-top: 40px; /* Ajuste conforme necessário */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px; /* Ajuste conforme necessário */
+            margin: 10px;
+            background: linear-gradient(to right, #4b0082, #800080); /* Degradê roxo */
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #000; /* Borda preta */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, border 0.3s; /* Transição suave */
+            text-transform: uppercase; /* Transformar texto em maiúsculas */
+        }
+        .button:hover {
+            background: linear-gradient(to right, #800080, #4b0082); /* Degradê roxo invertido ao passar o mouse */
+            border: 2px solid #000; /* Borda preta ao passar o mouse */
+        }
+        .image-container {
+            display: inline-block;
+            position: relative;
+            margin: 10px;
+            border-radius: 5px;
+            overflow: hidden; /* Para a sobreposição de texto */
+        }
+        .image-container img {
+            max-width: 200px;
+            border: 3px solid #4b0082; /* Borda roxa */
+            border-radius: 5px;
+        }
+        header {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+            padding: 10px; /* Espaçamento interno */
+            text-align: center; /* Alinhamento central */
+            display: flex; /* Flexbox */
+            justify-content: space-between; /* Alinhamento do espaço entre os itens */
+            align-items: center; /* Alinhamento vertical */
+            margin-bottom: 20px; /* Margem inferior */
+        }
+        .logo img {
+            max-width: 40px; /* Tamanho máximo da imagem */
+            border-radius: 50%; /* Borda circular */
+            margin-right: 10px; /* Margem à direita */
+        }
+        .site-name {
+            color: #fff; /* Cor do texto branco */
+            text-transform: uppercase; /* Transformação para maiúsculas */
+            font-weight: bold; /* Negrito */
+        }
+        .download-text {
+            font-size: 24px; /* Tamanho da fonte */
+            font-weight: bold; /* Negrito */
+            margin-bottom: 20px; /* Margem inferior */
+            text-transform: uppercase; /* Transformar texto em maiúsculas */
+            position: relative; /* Posição relativa */
+            display: inline-block; /* Para permitir que a seta fique ao lado */
+        }
+        .download-text::after {
+            content: "\25BC"; /* Adicionando a seta para baixo */
+            position: relative; /* Posição relativa em relação ao texto */
+            font-size: 36px; /* Tamanho da seta */
+            margin-left: 10px; /* Margem à esquerda do texto */
+        }
+        /* Adicionando estilo para centralizar a imagem e o botão duplicados */
+        .extra-content {
+            margin-top: -20px; /* Ajuste conforme necessário */
+        }
+        /* Adicionando espaço em branco para evitar o bug visual */
+        .extra-space {
+            height: 20px;
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header style="border-radius: 0;"> <!-- Removendo a borda do cabeçalho -->
+        <div class="logo">
+            <img src="https://i.ibb.co/WxDn7vx/IMG-20240221-WA0045.jpg" alt="Logo">
+        </div>
+        <div class="site-name">MILLENIUM STORE</div>
+    </header>
+    <div class="container">
+        <div class="download-text">BAIXE O APLICATIVO CORRESPONDENTE</div>
+        <div class="image-container">
+            <img src="https://i.ibb.co/rc0KH42/DT4noxmebk.jpg" alt="Foto 1">
+            <a href="https://play.google.com/store/apps/details?id=com.mtxfun.net" class="button">
+                Baixar Millenium SSH
+            </a>
+        </div>
+      <div class="image-container">
+    <img src="https://i.ibb.co/vLFsdFM/Screenshot-20240224-000450-Millenium-SSH.jpg" alt="Descrição da Imagem">
+    <a href="https://github.com/Eduardo889/Millenium-4g/raw/main/millenium%20ssh%20atualizado.apk" class="button">
+        Baixar Millenium ssh lite
+    </a>
+</div>
+      <a href="https://t.me/milleniumvendas" class="button">
+        🔵Baixar Aplicativos premium🔵
+    </a>
+</div>
+    </div>
+</body>
+</html>
